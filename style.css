@@ -1,6 +1,9 @@
 #header {
+  display: flex;
+  flex-direction: row;
   font-family: 'Yellowtail', cursive;
+  align-items:center;
 }
 .share-icon {
-  image-orientation: left;
+  float:right;
 }
