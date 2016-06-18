@@ -28,3 +28,30 @@
 #best {
   margin: 0px;
 }
+#title {
+  display: flex;
+  justify-content: space-between;
+
+}
+#midleft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#midright {
+  display: flex;
+  flex-direction: row;
+  width: 75px;
+  align-items: center;
+  color: grey;
+}
+#dessert {
+  margin: 0px;
+}
+
+#postdate {
+  margin: 0px;
+}
+#printer {
+  height: 10px;
+}
