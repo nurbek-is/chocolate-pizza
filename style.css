@@ -1,9 +1,30 @@
+.share-icon {
+  float:right;
+}
+
 #header {
   display: flex;
   flex-direction: row;
   font-family: 'Yellowtail', cursive;
   align-items:center;
+  justify-content: space-between;
 }
-.share-icon {
-  float:right;
+
+#topleft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#topright {
+  display: flex;
+  flex-direction: row-reverse;;
+  align-items: center;
+}
+
+
+#delicious {
+  margin: 0px;
+}
+#best {
+  margin: 0px;
 }
